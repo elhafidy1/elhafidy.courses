@@ -23,11 +23,11 @@ const config = {
   url: 'https://elhafidy1.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/elhafidy.courses/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'elhafidy.courses', // Usually your GitHub org/user name.
+  organizationName: 'elhafidy1', // Usually your GitHub org/user name.
   projectName: 'elhafidy.courses', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -49,24 +49,10 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -83,7 +69,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'elhafidy.courses',
+        title: 'EL HAFIDY Courses',
         logo: {
           alt: 'elhafidy courses',
           src: 'img/logo.svg',
