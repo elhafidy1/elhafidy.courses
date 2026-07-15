@@ -74,19 +74,24 @@ const config = {
           alt: 'elhafidy courses',
           src: 'img/logo.svg',
         },
-          items: [
-            {
-              type: 'docSidebar',
-              sidebarId: 'tutorialSidebar',
-              position: 'left',
-              label: 'Courses',
-            },
-            {
-              href: 'https://github.com/elhafidy1',
-              label: 'GitHub',
-              position: 'right',
-            },
-          ],
+        items: [
+          {
+            to: '/',
+            label: 'Home',
+            position: 'left',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Courses',
+          },
+          {
+            to: '/about',
+            label: 'About',
+            position: 'left',
+          },
+        ],  
       },
     footer: {
   style: 'dark',
@@ -105,15 +110,6 @@ const config = {
         {
           label: 'Kotlin',
           to: '/docs/kotlin/intro',
-        },
-      ],
-    },
-    {
-      title: 'GitHub',
-      items: [
-        {
-          label: 'GitHub Profile',
-          href: 'https://github.com/elhafidy1',
         },
       ],
     },
