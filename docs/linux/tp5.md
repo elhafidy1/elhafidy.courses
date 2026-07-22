@@ -82,6 +82,10 @@ Avant de terminer ce TP, assurez-vous d'avoir :
 
 ⬅ **[TP 4 – Gestion du système de fichiers (suite)](./tp4)**
 
+## ➡ TP suivant
+
+➡ **[TP 6 – Scripting Shell (Bash)](./tp6)**
+
 ---
 
 > **Cours : Administration Système sous Linux**  

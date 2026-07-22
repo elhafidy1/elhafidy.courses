@@ -17,6 +17,7 @@ module.exports = {
         'linux/tp3',
         'linux/tp4',
         'linux/tp5',
+        'linux/tp6',
       ],
     },
 
